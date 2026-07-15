@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#06070c">
+  <meta name="description" content="Portfólio digital responsivo de Tito — desenvolvedor e criador lógico.">
+  <title>adnz — Portfólio Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="portfolio">
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="page-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <button class="site-brand" data-panel="home" aria-label="Ir para o início">
+        <span class="brand-symbol">A</span>
+        <span><strong>adnz.png</strong><small>PORTFÓLIO DIGITAL</small></span>
+      </button>
+      <div class="availability"><i aria-hidden="true"></i><span>Disponível para projetos</span></div>
+    </header>
+
+    <section class="setup-stage" aria-label="Setup digital interativo">
+      <aside class="speaker speaker-left" aria-hidden="true">
+        <span class="music-notes"><i>♪</i><i>♫</i><i>♪</i></span>
+        <span class="speaker-light"></span>
+        <i class="speaker-driver speaker-driver-small"></i>
+        <i class="speaker-driver speaker-driver-large"></i>
+      </aside>
+
+      <div class="monitor-shell">
+        <div class="monitor-frame">
+          <div class="monitor-screen">
+            <div class="screen-bar">
+              <span class="screen-address"><i></i> adnz://portfolio/<span id="activeRoute">home</span></span>
+              <span class="screen-status">ONLINE</span>
+            </div>
+
+            <nav class="screen-nav" aria-label="Navegação principal">
+              <button class="active" data-panel="home" aria-current="page"><small>01</small><span>Início</span></button>
+              <button data-panel="projects"><small>02</small><span>Projetos</span></button>
+              <button data-panel="about"><small>03</small><span>Sobre</span></button>
+              <button data-panel="contact"><small>04</small><span>Contato</span></button>
+            </nav>
+
+            <div class="audio-player" id="audioPlayer" aria-label="Controles da música">
+              <div class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+              <div class="audio-meta">
+                <small id="audioState">TOQUE PARA OUVIR</small>
+                <strong id="audioName">Trade (Money Crypto Finance Forex).mp3</strong>
+              </div>
+              <div class="audio-buttons">
+                <button id="volumeDown" aria-label="Diminuir volume">−</button>
+                <button class="play-button" id="playMusic" aria-label="Tocar música">▶</button>
+                <button id="muteMusic" aria-label="Mutar música">♪</button>
+                <button id="volumeUp" aria-label="Aumentar volume">+</button>
+              </div>
+              <output id="volumeOutput" aria-label="Volume 55%">55%</output>
+            </div>
+
+            <section class="screen-content home-panel panel-view" data-view="home" aria-labelledby="hero-title">
+              <div class="hero-copy">
+                <p class="eyebrow"><span></span> DESIGN • CÓDIGO • EXPERIÊNCIA</p>
+                <p class="hero-intro">Olá, eu sou</p>
+                <h1 id="hero-title">TITO<span>.</span></h1>
+                <h2>Desenvolvedor &amp;<br><em>criador lógico.</em></h2>
+                <p class="hero-description">Transformo ideias em experiências digitais bonitas, rápidas e feitas para funcionar em qualquer tela.</p>
+                <div class="hero-actions">
+                  <button class="primary-button" data-panel="projects">Ver projetos <span>↗</span></button>
+                  <button class="ghost-button" data-panel="about">Sobre mim <span>→</span></button>
+                </div>
+              </div>
+              <div class="hero-visual" aria-hidden="true">
+                <div class="visual-label">BUILD / CREATE / EVOLVE</div>
+                <div class="code-orbit orbit-outer"></div>
+                <div class="code-orbit orbit-inner"></div>
+                <div class="code-core">&lt;/&gt;</div>
+                <span class="spark spark-one">+</span><span class="spark spark-two">✦</span><span class="spark spark-three">•</span>
+                <div class="visual-card"><small>FOCO ATUAL</small><strong>Interfaces que<br>marcam presença.</strong></div>
+              </div>
+            </section>
+
+            <section class="screen-content detail-panel projects-panel panel-view" data-view="projects" aria-labelledby="projects-title" hidden>
+              <div class="panel-heading">
+                <p class="panel-index">02 / PROJETOS</p>
+                <div><h2 id="projects-title">Projetos que saíram<br><em>do campo das ideias.</em></h2><p>Produtos pensados para resolver problemas reais sem abrir mão de uma identidade forte.</p></div>
+              </div>
+              <div class="project-grid">
+                <article class="project-card featured">
+                  <span class="project-number">01</span><div class="project-icon">SD</div>
+                  <div><small>APLICATIVO EDUCACIONAL</small><h3>Sala Digital</h3><p>Atividades e turmas organizadas em um ambiente simples para alunos e professores.</p></div>
+                  <div class="project-tags"><span>APP</span><span>EDUCAÇÃO</span></div>
+                </article>
+                <article class="project-card">
+                  <span class="project-number">02</span><div class="project-icon">GM</div>
+                  <div><small>PLATAFORMA GAMER</small><h3>Guild Manager</h3><p>Gestão de guildas, lines, membros e organização competitiva em um só lugar.</p></div>
+                  <div class="project-tags"><span>WEB</span><span>GAMER</span></div>
+                </article>
+                <article class="project-card">
+                  <span class="project-number">03</span><div class="project-icon">UI</div>
+                  <div><small>SITES &amp; EXPERIÊNCIAS</small><h3>Interfaces</h3><p>Identidades digitais responsivas, rápidas e desenhadas para marcar presença.</p></div>
+                  <div class="project-tags"><span>DESIGN</span><span>FRONT-END</span></div>
+                </article>
+              </div>
+            </section>
+
+            <section class="screen-content detail-panel about-panel panel-view" data-view="about" aria-labelledby="about-title" hidden>
+              <div class="panel-heading">
+                <p class="panel-index">03 / SOBRE</p>
+                <div><h2 id="about-title">Ideias ganham vida<br>quando <em>funcionam de verdade.</em></h2></div>
+              </div>
+              <div class="about-grid">
+                <div class="about-copy">
+                  <p>Sou um criador apaixonado por tecnologia, design e experiências digitais. Meu foco é transformar uma ideia bruta em algo bonito, intuitivo e bem construído.</p>
+                  <p>Gosto de unir visual marcante, lógica e atenção aos detalhes — sempre pensando em quem vai usar, seja no celular ou no computador.</p>
+                  <div class="skill-list"><span>WEB DESIGN</span><span>FRONT-END</span><span>APLICATIVOS</span><span>RESPONSIVIDADE</span><span>CRIATIVIDADE</span></div>
+                </div>
+                <div class="about-stats">
+                  <div><strong>100%</strong><span>FOCO EM<br>EXPERIÊNCIA</span></div>
+                  <div><strong>2</strong><span>TELAS<br>PRIORITÁRIAS</span></div>
+                  <div><strong>∞</strong><span>IDEIAS PARA<br>CONSTRUIR</span></div>
+                  <p>Mobile e PC recebem layouts próprios, não uma versão esticada do mesmo desenho.</p>
+                </div>
+              </div>
+            </section>
+
+            <section class="screen-content detail-panel contact-panel panel-view" data-view="contact" aria-labelledby="contact-title" hidden>
+              <div class="contact-intro">
+                <p class="panel-index">04 / CONTATO</p>
+                <h2 id="contact-title">Vamos criar algo<br><em>incrível juntos?</em></h2>
+                <p>Escolha por onde prefere conversar. Eu respondo assim que estiver disponível.</p>
+              </div>
+              <div class="contact-list">
+                <a href="https://www.instagram.com/adnz.png/" target="_blank" rel="noreferrer"><b>IG</b><span><small>INSTAGRAM</small><strong>@adnz.png</strong></span><i>↗</i></a>
+                <a href="https://wa.me/557591879611?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20portf%C3%B3lio!" target="_blank" rel="noreferrer"><b>WA</b><span><small>WHATSAPP</small><strong>+55 75 9187-9611</strong></span><i>↗</i></a>
+                <a href="mailto:adenilton.cs@gmail.com"><b>EM</b><span><small>E-MAIL</small><strong>adenilton.cs@gmail.com</strong></span><i>↗</i></a>
+              </div>
+            </section>
+          </div>
+          <div class="monitor-chin"><span>LG</span><i></i></div>
+        </div>
+        <div class="monitor-stand" aria-hidden="true"><i></i></div>
+      </div>
+
+      <aside class="speaker speaker-right" aria-hidden="true">
+        <span class="music-notes"><i>♫</i><i>♪</i><i>♫</i></span>
+        <span class="speaker-light"></span>
+        <i class="speaker-driver speaker-driver-small"></i>
+        <i class="speaker-driver speaker-driver-large"></i>
+      </aside>
+    </section>
+
+    <div class="desk-line" aria-hidden="true"><span></span></div>
+    <footer class="site-footer"><span>© 2026 ADNZ</span><p><i></i> Layout responsivo de verdade</p><span>BAHIA — BR</span></footer>
+
+
+    <audio id="backgroundMusic" src="Trade (Money Crypto Finance Forex).mp3" loop preload="auto" autoplay></audio>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
