@@ -1,0 +1,19 @@
+PORTFÓLIO ADNZ — V3.1 PC FIT
+
+CORREÇÃO DESTA VERSÃO:
+- O site ocupa exatamente uma tela no computador.
+- Não existe rolagem vertical ou horizontal no PC.
+- Telas baixas recebem um layout compacto automaticamente.
+- O mobile continua com rolagem normal por toque.
+
+ARQUIVOS PARA ENVIAR AO REPOSITÓRIO:
+- index.html
+- visual-v31.css
+- engine-v31.js
+- musica.mp3
+
+Apague os arquivos das versões anteriores antes de enviar estes.
+Depois da publicação, abra o endereço acrescentando ?v=31.
+
+Para confirmar que o index correto está publicado, procure:
+retro-atom-v3.1-pc-fit
